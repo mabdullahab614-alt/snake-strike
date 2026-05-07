@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=280&text=SNAKE%20STRIKE&fontSize=90&color=0:00e5ff,50:39ff14,100:00e5ff&stroke=00e5ff&strokeWidth=3&fontColor=00e5ff&animation=fadeIn&fontAlignY=55&desc=Neon%20Arcade%20%7C%20Built%20by%20Abdullah%20Javid&descSize=18&descAlignY=75&descColor=b0c8b0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=260&text=SNAKE%20STRIKE&fontSize=85&color=0:000000,100:0a1a0a&fontColor=00e5ff&animation=fadeIn&fontAlignY=42&stroke=00e5ff&strokeWidth=2&desc=Neon%20Arcade%20%7C%20Built%20by%20Abdullah%20Javid&descSize=18&descAlignY=68&descColor=39ff14" width="100%"/>
 
 <br/>
 
