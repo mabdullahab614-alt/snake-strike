@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SNAKE STRIKE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ── MAIN MENU ── -->
+  <div id="menuScreen" class="screen">
+    <div class="menu-wrap">
+      <div class="title-block">
+        <div class="pre-title">// SYSTEM BOOT COMPLETE</div>
+        <h1 class="game-title">SNAKE<br>STRIKE</h1>
+        <div class="dev-credit">DEVELOPED BY ABDULLAH JAVID</div>
+      </div>
+      <nav class="menu-nav">
+        <button class="nav-btn primary" id="launchBtn">&#9654;&nbsp; LAUNCH</button>
+        <button class="nav-btn" id="modeBtn">MODE : <span id="modeLabel">NORMAL</span></button>
+        <button class="nav-btn" id="specsBtn">SPECIFICATIONS</button>
+        <button class="nav-btn danger" id="terminateBtn">TERMINATE</button>
+      </nav>
+    </div>
+  </div>
+
+  <!-- ── SPECS SCREEN ── -->
+  <div id="specsScreen" class="screen hidden">
+    <div class="menu-wrap">
+      <h2 class="section-title">SYSTEM SPECS</h2>
+      <div class="specs-list">
+        <div class="spec-row"><span class="spec-key">ARCHITECT</span><span class="spec-val">ABDULLAH JAVID</span></div>
+        <div class="spec-row"><span class="spec-key">LOCAL BEST</span><span class="spec-val" id="specsBest">0 PTS</span></div>
+        <div class="spec-row"><span class="spec-key">ENGINE</span><span class="spec-val">SNAKE CORE v2.0</span></div>
+        <div class="spec-row"><span class="spec-key">RENDERER</span><span class="spec-val">HTML5 CANVAS</span></div>
+        <div class="spec-row"><span class="spec-key">STATUS</span><span class="spec-val neon-green">OPERATIONAL</span></div>
+      </div>
+      <button class="nav-btn" id="specsBackBtn">&#9664;&nbsp; BACK</button>
+    </div>
+  </div>
+
+  <!-- ── TERMINATED SCREEN ── -->
+  <div id="terminatedScreen" class="screen hidden">
+    <div class="menu-wrap center">
+      <div class="terminated-msg">
+        <div class="term-code">[ PROCESS KILLED ]</div>
+        <h2 class="section-title red">TERMINATED</h2>
+        <p class="term-sub">Session ended by user.</p>
+        <button class="nav-btn" id="rebootBtn">&#9654;&nbsp; REBOOT</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── GAME SCREEN ── -->
+  <div id="gameScreen" class="screen hidden">
+    <div class="game-center">
+
+      <!-- HUD bar -->
+      <div class="hud">
+        <button class="hud-btn" id="backBtn">&#9664; MENU</button>
+        <div class="hud-scores">
+          <div class="hud-box"><span class="hud-label">SCORE</span><span class="hud-val" id="score">0</span></div>
+          <div class="hud-box"><span class="hud-label">BEST</span><span class="hud-val" id="highScore">0</span></div>
+          <div class="hud-box"><span class="hud-label">LVL</span><span class="hud-val" id="level">1</span></div>
+        </div>
+        <div class="hud-diff" id="diffBadge">NORMAL</div>
+      </div>
+
+      <!-- Canvas -->
+      <div class="canvas-wrap">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div class="overlay" id="overlay">
+          <div class="overlay-inner">
+            <div class="overlay-code" id="overlayCode">// AWAITING INPUT</div>
+            <h2 class="overlay-title" id="overlayTitle">READY?</h2>
+            <p class="overlay-msg" id="overlayMessage">Initialise sequence to begin</p>
+            <div class="overlay-btns">
+              <button class="nav-btn primary" id="startBtn">&#9654;&nbsp; RESTART</button>
+              <button class="nav-btn danger" id="exitBtn">&#9632;&nbsp; EXIT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer bar -->
+      <div class="game-footer">
+        <span class="key-hint">ARROW / WASD &nbsp;·&nbsp; [P] PAUSE</span>
+        <span class="dev-credit footer">DEVELOPED BY ABDULLAH JAVID</span>
+      </div>
+
+    </div>
+
+    <!-- Mobile D-pad -->
+    <div class="dpad-wrap" id="dpadWrap">
+      <div class="dpad">
+        <button class="dpad-btn" id="btnUp">&#9650;</button>
+        <div class="dpad-row">
+          <button class="dpad-btn" id="btnLeft">&#9664;</button>
+          <button class="dpad-btn" id="btnRight">&#9654;</button>
+        </div>
+        <button class="dpad-btn" id="btnDown">&#9660;</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
