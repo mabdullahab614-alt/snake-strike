@@ -10,7 +10,7 @@
 [![Stars](https://img.shields.io/github/stars/mabdullahab614-alt/snake-strike?style=for-the-badge&color=39ff14&labelColor=0a0a0f&logo=github)](https://github.com/mabdullahab614-alt/snake-strike/stargazers)
 [![Forks](https://img.shields.io/github/forks/mabdullahab614-alt/snake-strike?style=for-the-badge&color=00e5ff&labelColor=0a0a0f&logo=github)](https://github.com/mabdullahab614-alt/snake-strike/forks)
 [![Issues](https://img.shields.io/github/issues/mabdullahab614-alt/snake-strike?style=for-the-badge&color=ff2d2d&labelColor=0a0a0f)](https://github.com/mabdullahab614-alt/snake-strike/issues)
-[![License](https://img.shields.io/github/license/mabdullahab614-alt/snake-strike?style=for-the-badge&color=39ff14&labelColor=0a0a0f)](LICENSE)
+[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-39ff14?style=for-the-badge&labelColor=0a0a0f)](#-license)
 [![Deploy](https://img.shields.io/github/actions/workflow/status/mabdullahab614-alt/snake-strike/deploy.yml?style=for-the-badge&label=CI%2FCD&labelColor=0a0a0f&color=39ff14)](https://github.com/mabdullahab614-alt/snake-strike/actions)
 
 <br/>
@@ -26,6 +26,8 @@
 
 ---
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
 ## 📑 Table of Contents
 
 - [Overview](#-overview)
@@ -37,7 +39,6 @@
 - [Quick Start](#-quick-start)
 - [File Structure](#-file-structure)
 - [Roadmap](#-roadmap)
-- [Contributing](#-contributing)
 - [Changelog](#-changelog)
 - [License](#-license)
 - [Author](#-author)
@@ -65,6 +66,8 @@
 ```
 
 ---
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## 🌐 Live Demo
 
@@ -170,6 +173,8 @@ Speed increases every **50 points**. Each mode tracks its own all-time best.
 
 ---
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
 ## 🛠️ Tech Stack
 
 <div align="center">
@@ -208,15 +213,6 @@ open index.html         # macOS
 xdg-open index.html     # Linux
 ```
 
-### Deploy your own fork
-```bash
-# Fork on GitHub, then:
-git clone https://github.com/YOUR_USERNAME/snake-strike.git
-
-# Enable GitHub Pages in Settings → Pages → Deploy from main branch
-# Your live URL: https://YOUR_USERNAME.github.io/snake-strike/
-```
-
 ---
 
 ## 📁 File Structure
@@ -229,19 +225,17 @@ snake-strike/
 ├── ⚙️  game.js                       # Game logic, audio engine, renderer
 │
 ├── 📋 README.md                     # You are here
-├── 📜 LICENSE                       # MIT License
+├── 📜 LICENSE                       # All Rights Reserved
 ├── 📝 CHANGELOG.md                  # Version history
 ├── 🔒 SECURITY.md                   # Security policy
-├── 🤝 CONTRIBUTING.md               # Contribution guide
 ├── 🔧 .gitignore                    # Ignored files
 │
 └── 📁 .github/
     ├── 📁 workflows/
     │   └── deploy.yml               # CI/CD — auto deploy to Pages
-    ├── 📁 ISSUE_TEMPLATE/
-    │   ├── bug_report.md            # Bug report template
-    │   └── feature_request.md       # Feature request template
-    └── PULL_REQUEST_TEMPLATE.md     # PR checklist template
+    └── 📁 ISSUE_TEMPLATE/
+        ├── bug_report.md            # Bug report template
+        └── feature_request.md       # Feature request template
 ```
 
 ---
@@ -260,18 +254,6 @@ snake-strike/
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
-
-1. Fork the project
-2. Create your branch: `git checkout -b feature/amazing-feature`
-3. Commit: `git commit -m 'Add amazing feature'`
-4. Push: `git push origin feature/amazing-feature`
-5. Open a [Pull Request](https://github.com/mabdullahab614-alt/snake-strike/pulls)
-
----
-
 ## 📋 Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for the full version history.
@@ -282,14 +264,23 @@ See [CHANGELOG.md](CHANGELOG.md) for the full version history.
 
 ## 📜 License
 
-Distributed under the **MIT License**. See [LICENSE](LICENSE) for details.
+**All Rights Reserved © 2026 Abdullah Javid**
 
-```
-Copyright (c) 2026 Abdullah Javid
-Free to use, modify, and distribute with attribution.
-```
+This repository and its contents — including source code, game design, assets, and documentation — are made publicly visible **for portfolio and demonstration purposes only**.
+
+**No part of this repository may be copied, modified, distributed, sublicensed, or used** — in whole or in part, for personal, educational, or commercial purposes — without explicit prior written permission from the author.
+
+Forking or cloning this repository does **not** grant any rights to use, reproduce, or redistribute its contents.
+
+If you are interested in using any part of this project, please contact me directly for permission:
+
+📧 **Email:** mabdullah.ab614@gmail.com
+🔗 **GitHub:** [github.com/mabdullahab614-alt](https://github.com/mabdullahab614-alt)
+💼 **LinkedIn:** [linkedin.com/in/abdullah-javid-b217a2384](https://www.linkedin.com/in/abdullah-javid-b217a2384/)
 
 ---
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## 👤 Author
 
@@ -299,8 +290,15 @@ Free to use, modify, and distribute with attribution.
 
 <br/>
 
+<a href="https://mabdullahab614-alt.github.io/snake-strike/">
+<img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=20&pause=1000&color=39FF14&center=true&vCenter=true&width=600&lines=Built+with+%E2%99%A5+by+Abdullah+Javid;Chase+the+high+score+%F0%9F%90%8D;Star+%E2%AD%90+if+you+enjoyed+it!" alt="Footer typing"/>
+</a>
+
+<br/><br/>
+
 [![GitHub](https://img.shields.io/badge/GitHub-mabdullahab614--alt-00e5ff?style=for-the-badge&logo=github)](https://github.com/mabdullahab614-alt)
-[![Email](https://img.shields.io/badge/Email-asoftwarer4.5%40gmail.com-ff2d2d?style=for-the-badge&logo=gmail&logoColor=white)](mailto:asoftwarer4.5@gmail.com)
+[![Email](https://img.shields.io/badge/Email-mabdullah.ab614%40gmail.com-ff2d2d?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mabdullah.ab614@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdullah%20Javid-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdullah-javid-b217a2384/)
 
 *"Building intelligence, one line at a time."*
 
